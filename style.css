@@ -1,0 +1,97 @@
+.encabezado{
+    display: flex;
+    background-color: #c2bdbd;
+    justify-content: space-between;
+    width: 800px;
+    margin: auto;
+    padding: 0 10px;
+}
+#buscar{
+    width: 200px;
+    height: 30px;
+    margin-top: 33px;
+}
+#login{
+    margin-top: 33px;
+    border: 2px solid#000;
+    box-shadow: 2px 3px black;
+    background-color: rgb(56, 131, 216);
+    color :white;
+    padding: 0 10px;
+    height: 25px;
+
+
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.col-1{
+    display:flexbox;
+    width: 600px;
+    
+}
+.cuerpo{
+    padding-left: 15px;
+    padding-top: 5px;
+    flex:1
+}
+.tarjeta-1, .tarjeta-2{
+    border:3px solid #000;
+    margin-top: 20px;
+    flex:1;
+    display: flex;
+
+}
+.texto{
+    font-style: italic;
+    padding-left: 7px;
+}
+.texto-inf{
+    text-align:center;
+    flex: 3;
+    margin-top: 20px;
+
+}
+.boton{
+    background-color: rgb(246, 221, 56);
+    box-shadow: 2px 4px black;
+    width: 80px;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.ninja{
+    margin: 0;
+    margin-top: 5px;
+}
+.col-2{
+    display:flexbox;
+    width: 200px;
+}
+.tarjeta-3{
+    border: 3px solid #000;
+    margin-top: 25px;
+    width: 180px;
+    flex: 1;
+    padding: 5px;
+
+
+}
+.opcion{
+    width: 180px;
+}
+.boton-2{
+    padding: 5px;
+    background-color: rgb(82, 143, 100);
+    text-align: center;
+    width: 140px;
+    border: 2px solid black;
+    box-shadow: 2px 4px #000;
+    margin-bottom: 10px;
+}
+.negrita{
+    font-weight: bold;
+}
